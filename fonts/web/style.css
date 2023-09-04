@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+ }
+ .menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    height: 100px;
+ }
+
+ .menu_item{
+   padding: 12px 12px;  
+   color: #368;
+   background-color: white;
+   height: 50px;
+   font-size: 40px;
+   line-height: 40px;
+   border: 1px solid;
+   border-radius: 20px;
+   
+ }
+ .photo{
+   margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+ }
+ .photo img{
+   border-radius: 50px;
+ }
+ .photo_1{
+   transform: scale(-1,1);
+ }
+ .spiski{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 20px;
+   line-height: 30px;
+   
+ }
+.spiski li{
+   padding: 12px;
+   border: 1px solid;
+   border-radius: 20px;
+}
+ footer{
+   margin-top: 50PX;
+    color: white;
+    background-color:#1E2640;
+
+    height: 280px;
+    margin-left: 20px;;
+    width: 50%;
+ }
+ .info{
+   height: 40px;
+   font-size: 20px;
+   line-height: 40px;
+ }
+ .item{
+   border-radius: 10px;
+   background-color: #dedfe3;
+   margin-top: 10px;
+   padding: 5px;
+   color: #1E2640;
+ }
+ .contacts{
+   display: flex;
+   justify-content: space-around;
+ }
+.networks{
+   display: flex;
+   justify-content: space-around;
+}
+.network {
+   display: flex;
+   justify-content: space-between;
+}
+.network div {
+   margin: 10px 10px 10px 10px;
+}
+
+.networks1{
+   display: flex;
+   justify-content: end;
+   margin-right: 100px;
+}
+.networks1 div{
+   margin: 10px 10px 10px 10px;
+}
+.follow{
+   display: flex;
+   justify-content: center;
+}
